@@ -5,4 +5,4 @@ TEMP_FILE="/sys/class/thermal/thermal_zone4/temp"
 TEMP=$(cat "$TEMP_FILE")
 TEMP_C=$(expr $TEMP / 1000)
 TEMP_DECIMAL=$(expr $TEMP % 1000 / 100)
-echo "TEMP: ${TEMP_C}°C |"
+echo "${TEMP_C}°C"

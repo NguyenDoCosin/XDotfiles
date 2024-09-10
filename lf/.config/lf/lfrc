@@ -33,6 +33,8 @@ cmd mkfile ${{
 
 cmd setwallpaper ${{
     wal -qi "$f"
+    feh --bg-fill "$f"
+    dwmc xrdb
     pywalfox update
 }}
 

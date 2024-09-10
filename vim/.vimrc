@@ -10,6 +10,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'dylanaraps/wal.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
+Plug 'lervag/vimtex'
 
 call plug#end()
 

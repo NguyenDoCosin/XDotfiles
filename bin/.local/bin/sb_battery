@@ -1,2 +1,11 @@
 #!/bin/bash
 
+BATTERY_PATH="/sys/class/power_supply/BAT0"
+STATUS_FILE="$BATTERY_PATH/status"
+CAPACITY_FILE="$BATTERY_PATH/capacity"
+
+STATUS=$(head -c 1 "$STATUS_FILE" | tr '[:lower:]' '[:upper:]')  # Capitalize the first letter
+CHARGE=$(cat "$CAPACITY_FILE")
+
+echo "$CHARGE% [$STATUS] |"
+

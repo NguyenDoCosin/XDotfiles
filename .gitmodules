@@ -1,3 +1,15 @@
+[submodule "vim/.vim/plugged/fzf.vim"]
+	path = vim/.vim/plugged/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "vim/.vim/plugged/fzf"]
+	path = vim/.vim/plugged/fzf
+	url = https://github.com/junegunn/fzf
+[submodule "vim/.vim/plugged/vim-airline"]
+	path = vim/.vim/plugged/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "vim/.vim/plugged/nerdtree"]
+	path = vim/.vim/plugged/nerdtree
+	url = https://github.com/preservim/nerdtree
 [submodule "vim/.vim/plugged/vim-commentary"]
 	path = vim/.vim/plugged/vim-commentary
 	url = https://github.com/tpope/vim-commentary
@@ -7,21 +19,9 @@
 [submodule "vim/.vim/plugged/vim-surround"]
 	path = vim/.vim/plugged/vim-surround
 	url = https://github.com/tpope/vim-surround
-[submodule "vim/.vim/plugged/wal.vim"]
-	path = vim/.vim/plugged/wal.vim
-	url = https://github.com/dylanaraps/wal.vim
-[submodule "vim/.vim/plugged/fzf"]
-	path = vim/.vim/plugged/fzf
-	url = https://github.com/junegunn/fzf
-[submodule "vim/.vim/plugged/fzf.vim"]
-	path = vim/.vim/plugged/fzf.vim
-	url = https://github.com/junegunn/fzf.vim
-[submodule "vim/.vim/plugged/vim-airline"]
-	path = vim/.vim/plugged/vim-airline
-	url = https://github.com/vim-airline/vim-airline
-[submodule "vim/.vim/plugged/nerdtree"]
-	path = vim/.vim/plugged/nerdtree
-	url = https://github.com/scrooloose/nerdtree
 [submodule "vim/.vim/plugged/vimtex"]
 	path = vim/.vim/plugged/vimtex
 	url = https://github.com/lervag/vimtex
+[submodule "vim/.vim/plugged/wal.vim"]
+	path = vim/.vim/plugged/wal.vim
+	url = https://github.com/dylanaraps/wal.vim
