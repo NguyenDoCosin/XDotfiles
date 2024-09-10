@@ -1,0 +1,3 @@
+/* Import color-scheme from pywal */
+
+@import "~/.cache/wal/colors-rofi.rasi"

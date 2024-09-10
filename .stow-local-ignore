@@ -1,0 +1,14 @@
+# Images files
+\.jpg
+\.jpeg
+\.png
+\.gif
+
+# Git
+\.git
+\.gitignore
+\.gitmodules
+
+
+# Other files
+^/README.md

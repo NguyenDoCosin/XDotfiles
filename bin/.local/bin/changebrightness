@@ -1,0 +1,12 @@
+#!/bin/bash
+
+case $1 in
+	up)
+		brillo -A 5
+		;;
+	down)
+		brillo -U 5
+		;;
+esac
+
+kill -36 $(pidof dwmblocks)

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+case $1 in
+	up)
+		wpctl set-volume @DEFAULT_SINK@ 0.02+
+		;;
+	down)
+		wpctl set-volume @DEFAULT_SINK@ 0.02-
+		;;
+	mute)
+		wpctl set-mute @DEFAULT_SINK@ toggle
+		;;
+	mic)
+		wpctl set-mute @DEFAULT_SOURCE@ toggle
+		;;
+esac
+
+kill -35 $(pidof dwmblocks)

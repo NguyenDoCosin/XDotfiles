@@ -1,0 +1,6 @@
+#!/bin/bash
+
+VOLUME=$(wpctl get-volume @DEFAULT_SINK@ | sed 's/Volume:/VOL:/g')
+echo "${VOLUME}"
+
+

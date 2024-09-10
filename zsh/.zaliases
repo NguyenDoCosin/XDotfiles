@@ -1,0 +1,43 @@
+# GIT ALIASES
+alias g="git"
+alias gstatus="git status"
+alias gcommit="git commit"
+alias gadd="git add"
+alias gpull="git pull"
+alias gpom="git pull origin master"
+alias gpush="git push"
+alias gpuom="git push origin master"
+alias gdiff="git diff"
+alias gcheck="git checkout"
+alias gcheckb="git checkout -b"
+alias gac="git add . && git commit"
+alias grstaged="git restore --staged ."
+alias grestore="git restore"
+alias gremote="git remote"
+alias gclone="git clone"
+alias glog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold green)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold yellow)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
+alias gtree="git ls-tree -r master --name-only"
+alias gbranch="git branch"
+alias gfetch="git fetch"
+
+# Common commands
+alias cp="cp -iv"
+alias mv="mv -iv"
+alias rm="rm -vI"
+alias bc="bc -ql"
+alias mkd="mkdir -pv"
+alias ls="ls -X --color=always"
+alias grep='grep --color=always' 
+
+# Other commands
+alias wget="curl -O"
+
+# Package management aliases
+alias pupdate="paru -Syu"
+alias pinstall="paru -S"
+alias premove="paru -Rs"
+alias psearch="paru -Ss"
+alias pclean="paru -Scc"
+alias pshowa="paru -Qq"
+alias pshowe="paru -Qe"
+alias pbatman="paru -Qtdq"

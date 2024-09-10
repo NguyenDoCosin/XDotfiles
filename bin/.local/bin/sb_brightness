@@ -1,0 +1,5 @@
+#!/bin/bash
+
+BRIGHTNESS=$(brillo -G | awk '{print int($1)}')
+echo "LIGHT: ${BRIGHTNESS}%"
+

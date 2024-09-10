@@ -1,0 +1,12 @@
+#!/bin/bash
+
+SSID=$(nmcli -t -f active,ssid dev wifi | grep '^yes:' | cut -d: -f2)
+
+SIGNAL=$(nmcli -t -f active,ssid,signal dev wifi | grep "^yes:$SSID" | cut -d: -f3)
+
+if [ -n "$SSID" ]; then
+    echo "$SSID ($SIGNAL dBm)"
+else
+    echo "Not Connected"
+fi
+
