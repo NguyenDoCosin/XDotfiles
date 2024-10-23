@@ -4,5 +4,5 @@
 *.jpeg
 *.gif
 
-# Gammastep because of privacy
-gammastep
+# Log files
+*.log
